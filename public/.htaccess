@@ -1,0 +1,4 @@
+# Redirect everything that doesn't match a directory or file to index.php
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .* index.php [L]

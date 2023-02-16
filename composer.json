@@ -1,0 +1,17 @@
+{
+    "name": "webdesires/mvc-framework",
+    "description": "Basic MVC Framework",
+    "type": "framework",
+    "authors": [
+        {
+            "name": "Josh Burley",
+            "email": "josh@webdesires.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {}
+}
